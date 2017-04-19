@@ -1,0 +1,104 @@
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<head> <!-- The head tag includes important information about the page -->
+  <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
+  This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+  You should include this line in the head of all of your webpages. -->
+  <title>My Notes</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+  <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+</head>
+<body>
+  <h1>Kevin's Notes</h1>
+  <img class="header_image" src="http://i.imgur.com/1ZkrqYA.jpg" alt="Picture of my Notes">
+  <div class="content">
+    <div class="subsection">
+      <h3>Web</h3>
+        <div class="summary">The web is made up of HTML documents linked
+        to each other via hyperlinks.</div>
+          <ul>
+            <li>HTTP - main protocol of the web</li>
+            <li>Servers - computers that host the files
+            that makeup the web</li>
+            <li>Internet - worlds largest computer network</li>
+            <li>Browser - Program that runs on your computer
+            to display web docs</li>
+          </ul>
+    </div>
+    <div class="subsection">
+      <h3>HTML</h3>
+        <div class="summary">Hyper Text Markup Language</div>
+          <ul>
+            <li>-text (content)</li>
+            <li>-markup (format?)</li>
+            <li>-references to other documents</li>
+            <li>-links to other pages</li>
+          </ul>
+    </div>
+    <div class="subsection">
+      <h3>Tags</h3>
+        <div class="summary">e.g. &lt;name&gt;contents&lt;/name&gt;</div>
+          <ul>
+            <li>Bold:
+            &lt;b&gt;contents&lt;/b&gt;<br></li>
+            <li>Italics:
+            &lt;em&gt;contents&lt;/em&gt;<br></li>
+          </ul>
+    </div>
+    <div class="subsection">
+      <h3>HTML Attributes</h3>
+        <div class="summary">e.g. &lt;tag attr="value"&gt;contents&lt;/tag&gt;</div>
+          <ul>
+            <li>Ancher:
+              &lt;a href="www.reddit.com"&gt;derp&lt;/a&gt;<br></li>
+            <li>Images:
+              &lt;img src="url" alt="text"&gt;<br><br></li>
+          </ul>
+    </div>
+    <div class="subsection">
+      <h3>Whitespace</h3>
+        <div class="summary">Any amount of whitespace turns into one empty space</div>
+          <ul>
+            <li>Break: &lt;br&gt; (void)</li>
+            <li>Paragraph:&lt;p&gt;contents&lt;/p&gt;</li>
+          </ul>
+    </div>
+    <div class="subsection">
+      <h3>Containers</h3>
+        <ul>
+          <li>Span: &lt;span&gt;contents&lt;/span&gt; (inline)</li>
+          <li>Div: &lt;div&gt;contents&lt;/div&gt; (block)</li>
+        </ul>
+    </div>
+    <div class="subsection">
+      <h3>HTML document structure:</h3>
+        <ul style="list-style-type:none">
+          <li>&lt;!DOCTYPE HTML&gt;</li>
+          <li>&lt;html&gt;</li>
+          <li>
+            <ul style="list-style-type:none">
+              <li>&lt;head&gt;</li>
+              <li>
+                <ul style="list-style-type:none">
+                  <li>&lt;title&gt;title&lt;/title&gt;</li>
+                </ul>
+              </li>
+              <li>&lt;head&gt;</li>
+            </ul>
+          </li>
+          <li>
+            <ul style="list-style-type:none">
+              <li>&lt;body&gt;</li>
+              <li>
+                <ul style="list-style-type:none">
+                  <li>contents</li>
+                </ul>
+              </li>
+              <li>&lt;/body&gt;</li>
+            </ul>
+          </li>
+          <li>&lt;/html&gt;</li>
+        </ul>
+    </div>
+  </div>
+</body>
